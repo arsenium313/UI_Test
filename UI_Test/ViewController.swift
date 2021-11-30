@@ -1,17 +1,15 @@
-//
-//  ViewController.swift
-//  UI_Test
-//
-//  Created by Арсений Кухарев on 24.11.2021.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var greatingsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        greatingsLabel.text = "Greatings my dear friend"
+        greatingsLabel.textColor = .red
+        greatingsLabel.textAlignment = .center
+        
     }
 
 
